@@ -2,11 +2,11 @@
 
 # AI-Powered Parametric Insurance Platform for Gig Economy Workers
 
-## Guidewire DEVTrails 2026 Project
+## Guidewire DEVTrails 2026 Hackathon Project
 
-An AI-powered parametric insurance platform that protects gig economy delivery partners from **income loss caused by external disruptions** such as extreme weather, pollution, curfews, and other environmental or social conditions.
+An **AI-powered parametric micro-insurance platform** designed to protect gig economy delivery workers from **income loss caused by environmental, social, and platform disruptions**.
 
-The system uses **AI monitoring agents, parametric triggers, automated claims, and instant payouts** to ensure gig workers receive compensation when they cannot work due to uncontrollable external factors.
+The system uses **AI monitoring agents, predictive risk intelligence, automated claims, and instant payouts** to compensate workers when external conditions prevent them from working.
 
 ---
 
@@ -14,10 +14,12 @@ The system uses **AI monitoring agents, parametric triggers, automated claims, a
 
 * Project Overview
 * Problem Statement
-* Solution Overview
+* Our Innovation
+* Why This Solution Matters
 * Target Users
 * Key Features
 * Parametric Insurance Model
+* AI Intelligence Layer
 * System Architecture
 * AI Agent Framework
 * Workflow
@@ -27,132 +29,236 @@ The system uses **AI monitoring agents, parametric triggers, automated claims, a
 * Fraud Detection System
 * Installation Guide
 * Development Setup
-* Production Deployment
-* Developer Guide
-* AI/GenAI Integration
+* Deployment
 * Future Enhancements
-* License
+* Impact
 
 ---
 
 # Project Overview
 
-Gig economy delivery workers depend on **daily deliveries for income**. However, external disruptions such as:
+Gig economy delivery workers rely on **daily work hours to earn income**.
+
+However, external disruptions frequently prevent them from working:
 
 * Extreme heat
-* Heavy rain
+* Heavy rainfall
 * Flooding
-* Air pollution
+* High air pollution
 * Curfews
-* Platform outages
-* Strikes or local restrictions
+* Delivery platform outages
+* Traffic restrictions
 
-can stop them from working.
+These disruptions can reduce worker income by **20–30% every month**.
 
-Currently, gig workers **lose 20–30% of their monthly income** due to these disruptions with **no protection mechanism**.
+Despite this risk, **there is no insurance product designed specifically to protect gig worker income.**
 
-This project builds an **AI-powered parametric insurance platform** where:
-
-* Workers subscribe to **weekly insurance policies**
-* AI agents monitor external conditions
-* Parametric triggers detect disruption events
-* Claims are automatically validated
-* Workers receive **instant compensation**
+Our platform introduces an **AI-driven parametric insurance system** that automatically compensates workers when disruption events occur.
 
 ---
 
 # Problem Statement
 
-Gig workers lack financial protection when external disruptions prevent them from working.
+Gig workers have **no financial protection against income loss caused by external disruptions**.
 
-Existing insurance solutions focus on:
+Traditional insurance solutions:
 
-* Health
-* Vehicle damage
-* Life insurance
+* Cover vehicle damage
+* Cover health incidents
+* Cover accidents
 
-But they do **not cover income loss due to environmental or social disruptions**.
+But **do not cover lost income caused by environmental conditions or operational disruptions.**
 
-Our solution introduces **automated parametric insurance** designed specifically for gig workers.
+Additionally:
+
+* Claim processes are slow
+* Manual verification delays payouts
+* Fraud risks are high
+* Policies are not tailored to gig workers
+
+We need a **real-time automated insurance system** that can:
+
+* Detect disruption events
+* Validate worker eligibility
+* Trigger claims automatically
+* Deliver instant compensation
+
+---
+
+# Our Innovation
+
+Our platform introduces a **fully automated AI-powered parametric insurance ecosystem**.
+
+Key innovations include:
+
+### Hyperlocal AI Risk Prediction
+
+Predicts disruption risk before it occurs using weather, pollution, and historical city data.
+
+### AI Monitoring Agents
+
+Autonomous AI agents continuously monitor disruption signals.
+
+### Digital Twin Risk Model
+
+Each worker has a **dynamic digital profile** representing risk exposure.
+
+### Dynamic Micro-Policies
+
+Insurance policies adjust weekly based on AI risk forecasts.
+
+### Automated Claims
+
+Claims are triggered automatically using parametric triggers.
+
+### Crowd-Verified Events
+
+Workers nearby help validate disruption events to reduce false claims.
+
+### Explainable AI
+
+The platform explains **why a payout occurred**, increasing trust.
+
+---
+
+# Why This Solution Matters
+
+This platform enables **inclusive financial protection** for gig workers.
+
+Benefits:
+
+* Protects daily income
+* Eliminates claim paperwork
+* Provides instant payouts
+* Reduces fraud
+* Creates new micro-insurance products
 
 ---
 
 # Target Users
 
-Primary users include delivery partners working for:
+Primary users include gig workers from:
 
 * Zomato
 * Swiggy
 * Amazon
 * Flipkart
-* Zepto
 * Blinkit
+* Zepto
 * Dunzo
 
-These workers typically operate on **daily or weekly income cycles** and are vulnerable to disruptions.
+These workers typically rely on **daily delivery earnings**.
 
 ---
 
 # Key Features
 
-## 1 Worker Onboarding
+## Worker Onboarding
 
-Simple registration system where workers provide:
+Workers register with:
 
 * Name
 * Phone number
 * Delivery platform
 * Work city
-* Work zone
+* Delivery zone
 
-The system generates a **risk profile** for each worker.
-
----
-
-## 2 Weekly Insurance Model
-
-Workers subscribe to **weekly insurance plans**.
-
-| Plan     | Weekly Premium | Coverage        |
-| -------- | -------------- | --------------- |
-| Basic    | ₹5             | ₹300 protection |
-| Standard | ₹8             | ₹500 protection |
-| Premium  | ₹12            | ₹800 protection |
+The system generates a **risk profile** for the worker.
 
 ---
 
-## 3 AI Risk Assessment
+# Weekly Micro-Insurance Plans
 
-AI models evaluate:
+| Plan     | Weekly Premium | Coverage |
+| -------- | -------------- | -------- |
+| Basic    | ₹5             | ₹300     |
+| Standard | ₹8             | ₹500     |
+| Premium  | ₹12            | ₹800     |
+
+Policies automatically renew weekly.
+
+---
+
+# AI Risk Intelligence Engine
+
+AI models analyze:
 
 * Weather history
-* Environmental risk
-* City disruption patterns
-* Worker location
+* Pollution levels
+* Traffic patterns
+* City disruption events
+* Worker activity patterns
 
-The model determines **dynamic premium pricing**.
+The system calculates a **dynamic risk score**.
 
----
+Example:
 
-## 4 Parametric Trigger System
-
-Claims are triggered automatically when predefined parameters are crossed.
-
-| Disruption      | Trigger                     |
-| --------------- | --------------------------- |
-| Extreme heat    | Temperature > 48°C          |
-| Extreme cold    | Temperature < 10°C          |
-| Heavy rain      | Rainfall threshold exceeded |
-| Flooding        | Water level alert           |
-| Pollution       | AQI > 400                   |
-| Curfew          | Verified via news           |
-| Platform outage | API downtime                |
+```
+Worker Location: Hyderabad
+Rain Risk: High
+Weekly Premium: ₹6
+Coverage: ₹350
+```
 
 ---
 
-## 5 AI Monitoring Agents
+# Parametric Insurance Model
 
-The platform deploys multiple AI agents that continuously monitor external signals.
+Claims are triggered when **predefined conditions are exceeded**.
+
+| Event           | Trigger              |
+| --------------- | -------------------- |
+| Heatwave        | Temperature > 48°C   |
+| Extreme cold    | Temperature < 10°C   |
+| Heavy rain      | Rainfall > threshold |
+| Flooding        | Water level alerts   |
+| Pollution       | AQI > 400            |
+| Curfew          | Verified via news    |
+| Platform outage | Delivery API failure |
+
+This removes the need for manual claim submission.
+
+---
+
+# AI Intelligence Layer
+
+The system includes multiple AI models.
+
+### Disruption Prediction Model
+
+Predicts probability of disruption events in the next 24 hours.
+
+### Income Loss Estimator
+
+Estimates expected income loss based on:
+
+* Worker delivery history
+* Average hourly earnings
+* Disruption duration
+
+### Fraud Detection Model
+
+Detects suspicious patterns such as:
+
+* GPS spoofing
+* Fake location reporting
+* Repeated claims
+* Unusual activity patterns
+
+### News Intelligence Model
+
+Uses NLP to detect disruption-related news such as:
+
+* Curfews
+* City lockdowns
+* Road closures
+* Strikes
+
+---
+
+# AI Monitoring Agents
+
+Multiple AI agents monitor external signals.
 
 ### Weather Agent
 
@@ -169,61 +275,18 @@ Tracks:
 
 * Air Quality Index
 * Pollution alerts
-* Hazard warnings
 
 ### News Intelligence Agent
 
-Uses NLP to detect:
+Uses NLP to detect disruptions from news feeds.
 
-* Curfews
-* Strikes
-* Zone closures
-* Emergency restrictions
+### Traffic Agent
+
+Monitors road closures and congestion.
 
 ### Platform Monitoring Agent
 
-Detects:
-
-* Delivery platform outages
-* Order assignment failures
-
----
-
-## 6 Automated Claims
-
-When a trigger event occurs:
-
-1. System verifies worker location
-2. Validates disruption event
-3. Confirms active policy
-4. Automatically generates claim
-
-No manual claim filing required.
-
----
-
-## 7 Instant Payout Simulation
-
-Once a claim is approved:
-
-* Payment is processed using mock payment gateways
-
-Supported integrations:
-
-* Razorpay Test Mode
-* Stripe Sandbox
-* UPI simulation
-
----
-
-## 8 Fraud Detection
-
-AI models detect suspicious activities such as:
-
-* GPS spoofing
-* Duplicate claims
-* False event reporting
-* Location mismatch
+Detects outages of delivery platforms.
 
 ---
 
@@ -236,15 +299,83 @@ Node.js Backend (Express)
       |
 MongoDB Database
       |
-Python AI Services
+Python AI Services (FastAPI)
       |
 AI Monitoring Agents
       |
-External APIs (Weather / News / Pollution)
+External Data APIs
       |
 Parametric Claim Engine
       |
 Payment Gateway Simulation
+```
+
+---
+
+# Workflow
+
+## Step 1 Worker Registration
+
+Worker registers and creates account.
+
+AI generates **risk profile**.
+
+---
+
+## Step 2 Policy Subscription
+
+Worker selects a weekly insurance plan.
+
+AI calculates premium dynamically.
+
+Policy becomes active.
+
+---
+
+## Step 3 Continuous Monitoring
+
+AI agents monitor disruption signals from:
+
+* Weather APIs
+* Pollution APIs
+* News feeds
+* Traffic data
+
+---
+
+## Step 4 Disruption Detection
+
+When conditions exceed thresholds, the system identifies a **parametric event**.
+
+Example:
+
+```
+AQI > 400
+Temperature > 48°C
+Heavy rainfall detected
+```
+
+---
+
+## Step 5 Claim Validation
+
+The platform verifies:
+
+* Worker location
+* Active policy
+* Disruption authenticity
+
+---
+
+## Step 6 Instant Payout
+
+Compensation is automatically transferred.
+
+Example:
+
+```
+Lost Work Duration: 5 hours
+Compensation: ₹350
 ```
 
 ---
@@ -267,28 +398,28 @@ Payment Gateway Simulation
 ## Database
 
 * MongoDB
-* Mongoose ORM
+* Mongoose
 
-## AI & GenAI
+## AI Layer
 
 * Python
 * FastAPI
 * LangChain
 * OpenAI / LLM APIs
-* NLP for news classification
-* Scikit-Learn for risk models
+* Scikit-Learn
 
 ## APIs
 
-* Weather API
-* News API
-* Pollution API
-* Mock traffic APIs
+* Weather APIs
+* News APIs
+* Pollution APIs
+* Traffic APIs
 
 ## Payments
 
 * Razorpay Sandbox
 * Stripe Test Mode
+* UPI Simulation
 
 ---
 
@@ -304,6 +435,7 @@ platform
 city
 zone
 riskScore
+trustScore
 activePolicy
 ```
 
@@ -332,94 +464,16 @@ status
 timestamp
 ```
 
----
-
-# Workflow
-
-## Step 1 Worker Registration
-
-User registers and creates an account.
-
-AI engine performs **risk profiling**.
-
----
-
-## Step 2 Policy Creation
-
-Worker selects weekly coverage.
-
-The system calculates premium dynamically.
-
-Policy becomes active.
-
----
-
-## Step 3 Continuous Monitoring
-
-AI agents monitor disruption signals from:
-
-* Weather APIs
-* News feeds
-* Environmental APIs
-
----
-
-## Step 4 Parametric Trigger Detection
-
-If parameters exceed defined limits, the system triggers a disruption event.
-
-Example:
+## Events Collection
 
 ```
-Temperature > 48°C
-AQI > 400
-Rainfall > flood threshold
+eventId
+eventType
+city
+triggerSource
+severity
+timestamp
 ```
-
----
-
-## Step 5 Claim Validation
-
-The system verifies:
-
-* Worker location
-* Active insurance policy
-* Event authenticity
-
----
-
-## Step 6 Instant Payout
-
-Claim amount is transferred to worker.
-
-Example:
-
-```
-Lost Work Duration: 5 hours
-Compensation: ₹350
-```
-
----
-
-# AI / GenAI Integration
-
-The platform uses **Generative AI and machine learning** for:
-
-### Risk Assessment Model
-
-Predicts disruption probability.
-
-### NLP News Analysis
-
-Identifies disruption-related news events.
-
-### Fraud Detection Model
-
-Detects abnormal claim behavior.
-
-### Predictive Analytics
-
-Predicts next week’s disruption risk.
 
 ---
 
@@ -479,7 +533,7 @@ RAZORPAY_KEY=
 
 ---
 
-# Production Deployment
+# Deployment
 
 ### Frontend
 
@@ -488,14 +542,14 @@ RAZORPAY_KEY=
 
 ### Backend
 
-* AWS EC2
 * Render
 * Railway
+* AWS EC2
 
 ### AI Services
 
-* Docker container
-* FastAPI server
+* Docker
+* FastAPI
 
 ### Database
 
@@ -503,80 +557,34 @@ RAZORPAY_KEY=
 
 ---
 
-# Developer Guide
-
-## Project Structure
-
-```
-project-root
-|
-frontend
-|
-backend
-|
-ai-services
-|
-docs
-|
-README.md
-```
-
----
-
-# Coding Standards
-
-* Use ESLint for JavaScript
-* Use PEP8 for Python
-* Follow REST API conventions
-
----
-
-# Testing
-
-Run backend tests
-
-```
-npm test
-```
-
-Run AI tests
-
-```
-pytest
-```
-
----
-
 # Future Enhancements
 
-* Hyperlocal weather prediction
-* Blockchain-based claim transparency
+* Hyperlocal weather prediction models
+* Blockchain-based transparent claims
 * Integration with delivery platforms
-* AI-based disruption forecasting
 * Mobile application
+* AI disruption forecasting dashboard
 
 ---
 
 # Impact
 
-This platform can protect **millions of gig workers** by providing:
+This platform can protect **millions of gig workers worldwide**.
 
-* Income security
-* Automated insurance claims
-* Fair compensation
-* Fast payouts
+Benefits include:
 
----
-
-# License
-
-MIT License
+* Financial stability
+* Instant insurance payouts
+* Reduced fraud
+* Automated claims
+* Scalable insurance infrastructure
 
 ---
 
-# Contributors
+# Hackathon Team
 
-DEVTrails 2026 Team
+Guidewire DEVTrails 2026
 
 AI Parametric Insurance Platform
 
+---
