@@ -271,15 +271,4 @@ This platform follows the core constraints of the Guidewire DEVTrails challenge:
 
 ---
 
-# 15. Future Policy Enhancements
-
-Future updates may include:
-
-* Blockchain-based claim transparency
-* Smart contract payouts
-* Advanced fraud analytics
-* Regulatory compliance frameworks
-
----
-
 **End of Policy Document**
