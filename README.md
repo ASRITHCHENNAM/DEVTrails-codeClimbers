@@ -293,4 +293,8 @@ This platform provides:
 This solution introduces a new insurance paradigm focused on income protection for gig workers. By combining parametric triggers with AI-driven validation and fraud detection, the platform ensures fast, fair, and transparent insurance delivery.
 
 ---
-For more detailed policy you can check in https://github.com/ASRITHCHENNAM/DEVTrails-codeClimbers/blob/master/POLICY.md
+## 📄 Policy Details
+
+For complete policy details and coverage terms, please review our official Policy Document:
+
+🔗 [View Policy Document](https://github.com/ASRITHCHENNAM/DEVTrails-codeClimbers/blob/master/POLICY.md)
